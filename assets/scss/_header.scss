@@ -1,10 +1,44 @@
+$mobile-menu-width: 680px;
+
 header {
   background-color: #00263e;
-  padding: 2em 0;
+  padding: 2rem;
+
+  .wrap {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .wrap:after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+
+  nav button {
+    background: transparent no-repeat center center;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-size: 24px 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: .25rem;
+    display: none;
+    font-size: 1.25rem;
+    height: 2em;
+    line-height: 1;
+    padding: .5rem .75rem;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 2.5em;
+  }
 
   a {
     color: #FFF;
     text-decoration: none;
+  }
+
+  h1 {
+    float: left;
   }
 
   h1 a {
@@ -16,11 +50,8 @@ header {
     padding-left: 75px;
   }
 
-  li {
-    display: inline-block;
-    list-style-type: none;
-    text-align: center;
-    width: 150px;
+  ul {
+    float: right;
   }
 
   li a {
@@ -36,5 +67,61 @@ header {
     background-color: #15b588;
     border-radius: 20px;
     line-height: 35px;
+  }
+
+  li.icon {
+    display: none;
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: $mobile-menu-width) {
+    li {
+      display: inline-block;
+      list-style-type: none;
+      text-align: center;
+      width: 150px;
+    }
+  }
+
+  @media screen and (max-width: $mobile-menu-width) {
+    nav button {
+      display: block;
+    }
+
+    li{
+      display: none;
+    }
+
+    li.icon {
+      display: inline-block;
+      float: right;
+    }
+
+    ul.responsive {
+      clear: both;
+      display: block;
+      width: 100%;
+    }
+
+    ul.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    ul.responsive li {
+      border-radius: 20px;
+      float: none;
+      display: inline;
+      padding: 0px 15px;
+    }
+
+    ul.responsive li a {
+      background-color: $color2;
+      border-radius: 20px;
+      display: block;
+      line-height: 35px;
+      text-align: center;
+    }
   }
 }
