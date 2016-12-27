@@ -1,0 +1,40 @@
+header {
+  background-color: #00263e;
+  padding: 2em 0;
+
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  h1 a {
+    background: url(/img/header-logo.png) no-repeat;
+    display: block;
+    font-weight: 400;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 75px;
+  }
+
+  li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    width: 150px;
+  }
+
+  li a {
+    display: block;
+    line-height: 60px;
+  }
+
+  li a:hover {
+    font-weight: 600;
+  }
+
+  li a.special {
+    background-color: #15b588;
+    border-radius: 20px;
+    line-height: 35px;
+  }
+}

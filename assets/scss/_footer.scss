@@ -1,0 +1,21 @@
+footer {
+  background-color: #f3f3f3;
+  color: #CCC;
+  font-size: 0.9em;
+  padding: 4em 0;
+  text-align: center;
+
+  svg {
+    height: 32px;
+    width: 32px;
+  }
+
+  li {
+    display: inline-block;
+    padding: 0 1em;
+  }
+
+  ul {
+    margin-bottom: 1em;
+  }
+}

@@ -1,0 +1,7 @@
+.sass-cache/
+backup/
+node_modules/
+public_html/css/
+public_html/img/
+public_html/js/
+public_html/svg/
