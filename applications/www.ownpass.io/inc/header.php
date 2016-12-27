@@ -1,13 +1,9 @@
 <header>
     <div class="wrap">
-        <h1>
-            <a href="/">OwnPass</a>
-        </h1>
+        <a href="/" id="logo">OwnPass</a>
 
         <nav>
             <button type="button"
-                    aria-controls="navbar-header"
-                    aria-expanded="false"
                     aria-label="Toggle navigation">
             </button>
 
