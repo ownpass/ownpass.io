@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php require __DIR__ . '/../inc/head.php'; ?>
+        <?php
+
+        $headTitle = 'Download OwnPass, self hosted, open source password management';
+
+        require __DIR__ . '/../inc/head.php';
+
+        ?>
     </head>
     <body>
 

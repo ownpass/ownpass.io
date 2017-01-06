@@ -7,7 +7,15 @@
 <meta name="apple-mobile-web-app-title" content="OwnPass">
 <meta name="apple-mobile-web-app-capable" content="yes">
 
-<title>OwnPass, self hosted, open source password management</title>
+<?php
+
+if (!isset($headTitle)) {
+    $headTitle = 'OwnPass, self hosted, open source password management';
+}
+
+echo sprintf('<title>%s</title>', $headTitle);
+
+?>
 
 <link rel="stylesheet" href="/css/ownpass.min.css">
 <link rel="manifest" href="/manifest.json">
