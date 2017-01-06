@@ -1,3 +1,7 @@
+function opOnCaptcha(response) {
+    $('#mailingForm').submit();
+}
+
 $(function() {
     $(document).on('click', 'header nav button', function(e) {
         e.preventDefault();

@@ -45,6 +45,6 @@
     </ul>
 
     <ul class="copyright">
-        <li>Copyright &copy; <?php echo date('Y'); ?> OwnPass. All rights reserved.</li>
+        <li>Copyright &copy; 2016-<?php echo date('Y'); ?> OwnPass. All rights reserved.</li>
     </ul>
 </footer>
