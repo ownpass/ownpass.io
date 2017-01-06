@@ -10,7 +10,10 @@
         <section id="introduction">
             <div class="wrap container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-12 text-center"
+                         data-ga-event-action="banner-how-it-works"
+                         data-ga-event-category="Banner"
+                         data-ga-event-label="How it works">
                         <h1>How it works</h1>
 
                         <p>
@@ -24,7 +27,12 @@
             <div class="wrap container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-lg-3 text-center">
-                        <svg class="icon icon-cloud"><use xlink:href="/svg/symbol-defs.svg#icon-cloud"></use></svg>
+                        <svg class="icon icon-cloud"
+                             data-ga-event-action="shortcut-how-it-works-private-cloud"
+                             data-ga-event-category="Shortcut"
+                             data-ga-event-label="Private Cloud">
+                            <use xlink:href="/svg/symbol-defs.svg#icon-cloud"></use>
+                        </svg>
                     </div>
                     <div class="col-xs-12 col-lg-9">
                         <h2>Private Cloud</h2>
@@ -38,7 +46,12 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-lg-3 text-center">
-                        <svg class="icon icon-key"><use xlink:href="/svg/symbol-defs.svg#icon-key"></use></svg>
+                        <svg class="icon icon-key"
+                             data-ga-event-action="shortcut-how-it-works-encryption"
+                             data-ga-event-category="Shortcut"
+                             data-ga-event-label="Encryption">
+                            <use xlink:href="/svg/symbol-defs.svg#icon-key"></use>
+                        </svg>
                     </div>
                     <div class="col-xs-12 col-lg-9">
                         <h2>Encryption</h2>
@@ -52,7 +65,12 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-lg-3 text-center">
-                        <svg class="icon icon-users"><use xlink:href="/svg/symbol-defs.svg#icon-users"></use></svg>
+                        <svg class="icon icon-users"
+                             data-ga-event-action="shortcut-how-it-multiple-accounts"
+                             data-ga-event-category="Shortcut"
+                             data-ga-event-label="Multiple Accounts">
+                            <use xlink:href="/svg/symbol-defs.svg#icon-users"></use>
+                        </svg>
                     </div>
                     <div class="col-xs-12 col-lg-9">
                         <h2>Multiple Accounts</h2>

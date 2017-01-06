@@ -10,7 +10,10 @@
         <section id="introduction">
             <div class="wrap container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-12 text-center"
+                         data-ga-event-action="banner-404"
+                         data-ga-event-category="Banner"
+                         data-ga-event-label="Page Not Found">
                         <h1>Page Not Found</h1>
 
                         <p>

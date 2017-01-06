@@ -10,7 +10,10 @@
         <section id="introduction">
             <div class="wrap container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-12 text-center"
+                         data-ga-event-action="banner-support"
+                         data-ga-event-category="Banner"
+                         data-ga-event-label="Support">
                         <h1>Support</h1>
 
                         <p>
@@ -61,10 +64,12 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-5 text-center">
-                        <a href="https://groups.google.com/forum/#!forum/ownpass">
+                        <a href="https://groups.google.com/forum/#!forum/ownpass"
+                           data-ga-event-action="support-google-plus"
+                           data-ga-event-category="Support"
+                           data-ga-event-label="Google Plus">
                             <svg class="icon icon-google-plus">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="/svg/symbol-defs.svg#icon-google-plus"></use>
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/svg/symbol-defs.svg#icon-google-plus"></use>
                             </svg>
 
                             <h2>Forums</h2>
