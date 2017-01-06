@@ -10,7 +10,10 @@
         <section id="introduction">
             <div class="wrap container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-12 text-center"
+                         data-ga-event-action="banner-homepage"
+                         data-ga-event-category="Banner"
+                         data-ga-event-label="Self-Hosted Password Management">
                         <h1>Self-Hosted Password Management</h1>
 
                         <p>
@@ -26,7 +29,10 @@
         <section>
             <div class="wrap container-fluid">
                 <div class="row">
-                    <div class="col-sm-6 col-lg-3 text-center">
+                    <div class="col-sm-6 col-lg-3 text-center"
+                         data-ga-event-action="shortcut-homepage-availability"
+                         data-ga-event-category="Shortcut"
+                         data-ga-event-label="Availability">
                         <svg class="icon icon-mobile2">
                             <use xlink:href="/svg/symbol-defs.svg#icon-mobile2"></use>
                         </svg>
@@ -37,7 +43,10 @@
                             OwnPass is available everywhere. On any device, in any browser.
                         </p>
                     </div>
-                    <div class="col-sm-6 col-lg-3 text-center">
+                    <div class="col-sm-6 col-lg-3 text-center"
+                         data-ga-event-action="shortcut-homepage-selfhosted"
+                         data-ga-event-category="Shortcut"
+                         data-ga-event-label="Self Hosted">
                         <svg class="icon icon-cloud">
                             <use xlink:href="/svg/symbol-defs.svg#icon-cloud"></use>
                         </svg>
@@ -48,7 +57,10 @@
                             You host OwnPass on your own server giving you complete control.
                         </p>
                     </div>
-                    <div class="col-sm-6 col-lg-3 text-center">
+                    <div class="col-sm-6 col-lg-3 text-center"
+                         data-ga-event-action="shortcut-homepage-multipleusers"
+                         data-ga-event-category="Shortcut"
+                         data-ga-event-label="Multiple Users">
                         <svg class="icon icon-users">
                             <use xlink:href="/svg/symbol-defs.svg#icon-users"></use>
                         </svg>
@@ -59,7 +71,10 @@
                             It's possible to create multiple user accounts and share passwords.
                         </p>
                     </div>
-                    <div class="col-sm-6 col-lg-3 text-center">
+                    <div class="col-sm-6 col-lg-3 text-center"
+                         data-ga-event-action="shortcut-homepage-opensource"
+                         data-ga-event-category="Shortcut"
+                         data-ga-event-label="Open Source">
                         <svg class="icon icon-github">
                             <use xlink:href="/svg/symbol-defs.svg#icon-github"></use>
                         </svg>

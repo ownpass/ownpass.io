@@ -14,6 +14,9 @@
                 </div>
                 <div class="col-xs-12 col-sm-3 text-right">
                     <button class="g-recaptcha"
+                            data-ga-event-action="mailing-subscribe-clicked"
+                            data-ga-event-category="Mailing"
+                            data-ga-event-label="Mailing Subscribe"
                             data-sitekey="6Len4RAUAAAAAMmd0FyRmcWyiObT9ku8hCxfrVSa"
                             data-callback="opOnCaptcha">
                         Sign up
