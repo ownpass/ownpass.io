@@ -9,7 +9,7 @@ module.exports = function(grunt) {
             },
             fonts: 'assets/fonts/',
             grunt: 'grunt/',
-            images: 'assets/images/',
+            images: 'assets/img/',
             js: 'assets/js/',
             public: 'public_html/',
             scss: 'assets/scss/',

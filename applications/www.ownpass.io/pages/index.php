@@ -29,7 +29,7 @@
         <section>
             <div class="wrap container-fluid">
                 <div class="row">
-                    <div class="col-sm-6 col-lg-3 text-center"
+                    <div class="col-sm-6 col-lg-3 text-center shortcut"
                          data-ga-event-action="shortcut-homepage-availability"
                          data-ga-event-category="Shortcut"
                          data-ga-event-label="Availability">
@@ -43,7 +43,7 @@
                             OwnPass is available everywhere. On any device, in any browser.
                         </p>
                     </div>
-                    <div class="col-sm-6 col-lg-3 text-center"
+                    <div class="col-sm-6 col-lg-3 text-center shortcut"
                          data-ga-event-action="shortcut-homepage-selfhosted"
                          data-ga-event-category="Shortcut"
                          data-ga-event-label="Self Hosted">
@@ -57,7 +57,7 @@
                             You host OwnPass on your own server giving you complete control.
                         </p>
                     </div>
-                    <div class="col-sm-6 col-lg-3 text-center"
+                    <div class="col-sm-6 col-lg-3 text-center shortcut"
                          data-ga-event-action="shortcut-homepage-multipleusers"
                          data-ga-event-category="Shortcut"
                          data-ga-event-label="Multiple Users">
@@ -71,7 +71,7 @@
                             It's possible to create multiple user accounts and share passwords.
                         </p>
                     </div>
-                    <div class="col-sm-6 col-lg-3 text-center"
+                    <div class="col-sm-6 col-lg-3 text-center shortcut"
                          data-ga-event-action="shortcut-homepage-opensource"
                          data-ga-event-category="Shortcut"
                          data-ga-event-label="Open Source">

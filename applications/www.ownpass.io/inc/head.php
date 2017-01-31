@@ -32,12 +32,13 @@ echo sprintf('<title>%s</title>', $headTitle);
 
 <link rel="apple-touch-startup-image" href="/img/apple/launch.png">
 
-<link rel="icon" type="image/png" sizes="192x192" href="/img/android/android-icon-192x192.png">
+<link rel="mask-icon" href="/svg/safari-pinned-tab.svg" color="red">
+<link rel="shortcut icon" href="/img/favicons/favicon.ico"/>
 
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/img/favicons/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
-<link rel="shortcut icon" href="/img/favicons/favicon.ico"/>
+<link rel="icon" type="image/png" sizes="192x192" href="/img/android/android-icon-192x192.png">
 <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicons/favicon.ico">
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700" rel="stylesheet" type="text/css">

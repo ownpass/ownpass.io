@@ -16,7 +16,7 @@ header {
   }
 
   #logo {
-    background: url('/img/header-logo.png') no-repeat;
+    background: url('/img/icons/60x60.png') no-repeat;
     display: inline-block;
     float: left;
     font-size: 2em;
@@ -50,6 +50,7 @@ header {
 
   ul {
     float: right;
+    margin: 0;
   }
 
   li a {

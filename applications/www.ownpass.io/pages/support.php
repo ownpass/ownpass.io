@@ -35,47 +35,50 @@
             <div class="wrap container-fluid">
                 <div class="row">
                     <div class="col-lg-5 text-center">
-                        <svg class="icon icon-lifebuoy">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                 xlink:href="/svg/symbol-defs.svg#icon-lifebuoy"></use>
-                        </svg>
+                        <a href="/manual/user-guide"
+                           data-ga-event-action="support-user-guide"
+                           data-ga-event-category="Support"
+                           data-ga-event-label="User Guide">
+                            <svg class="icon icon-lifebuoy">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     xlink:href="/svg/symbol-defs.svg#icon-lifebuoy"></use>
+                            </svg>
 
-                        <h2>User Manual</h2>
+                            <h2>User Guide</h2>
 
-                        <p class="coming-soon">
-                            Coming soon
-                        </p>
-
-                        <p>
-                            The user manual describing how to use OwnPass and all its clients.
-                        </p>
+                            <p>
+                                The user manual describing how to use OwnPass and all its clients.
+                            </p>
+                        </a>
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 text-center">
-                        <svg class="icon icon-lifebuoy">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                 xlink:href="/svg/symbol-defs.svg#icon-lifebuoy"></use>
-                        </svg>
+                        <a href="/manual/technical-reference"
+                           data-ga-event-action="support-technical-reference"
+                           data-ga-event-category="Support"
+                           data-ga-event-label="Technical Reference">
+                            <svg class="icon icon-lifebuoy">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     xlink:href="/svg/symbol-defs.svg#icon-lifebuoy"></use>
+                            </svg>
 
-                        <h2>Technical Reference</h2>
+                            <h2>Technical Reference</h2>
 
-                        <p class="coming-soon">
-                            Coming soon
-                        </p>
-
-                        <p>
-                            The technical reference that helps developers on getting started to participate on the
-                            project.
-                        </p>
+                            <p>
+                                The technical reference that helps developers on getting started to participate on the
+                                project.
+                            </p>
+                        </a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-5 text-center">
                         <a href="https://groups.google.com/forum/#!forum/ownpass"
-                           data-ga-event-action="support-google-plus"
+                           data-ga-event-action="support-forum"
                            data-ga-event-category="Support"
-                           data-ga-event-label="Google Plus">
+                           data-ga-event-label="Forum">
                             <svg class="icon icon-google-plus">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/svg/symbol-defs.svg#icon-google-plus"></use>
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     xlink:href="/svg/symbol-defs.svg#icon-google-plus"></use>
                             </svg>
 
                             <h2>Forums</h2>

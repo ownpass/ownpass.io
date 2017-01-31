@@ -6,55 +6,25 @@ module.exports = {
                 expand: true,
                 flatten: true,
                 src: [
-                    '<%= paths.images %>/android/**/*.ico',
-                    '<%= paths.images %>/android/**/*.png'
+                    '<%= paths.images %>/favicons/**/*.ico'
                 ],
-                dest: '<%= paths.public %>/img/android/'
+                dest: '<%= paths.public %>/img/favicons/'
             },
             {
                 expand: true,
                 flatten: true,
                 src: [
-                    '<%= paths.images %>/apple/**/*.ico',
-                    '<%= paths.images %>/apple/**/*.png'
+                    '<%= paths.images %>/icons/**/*.png'
                 ],
-                dest: '<%= paths.public %>/img/apple/'
+                dest: '<%= paths.public %>/img/icons/'
             },
             {
                 expand: true,
                 flatten: true,
                 src: [
-                    '<%= paths.images %>/download/**/*.ico',
                     '<%= paths.images %>/download/**/*.png'
                 ],
                 dest: '<%= paths.public %>/img/download/'
-            },
-            {
-                expand: true,
-                flatten: true,
-                src: [
-                    '<%= paths.images %>/favicon/**/*.ico',
-                    '<%= paths.images %>/favicon/**/*.png'
-                ],
-                dest: '<%= paths.public %>/img/favicon/'
-            },
-            {
-                expand: true,
-                flatten: true,
-                src: [
-                    '<%= paths.images %>/ms/**/*.ico',
-                    '<%= paths.images %>/ms/**/*.png'
-                ],
-                dest: '<%= paths.public %>/img/ms/'
-            },
-            {
-                expand: true,
-                flatten: true,
-                src: [
-                    '<%= paths.images %>/*.ico',
-                    '<%= paths.images %>/*.png'
-                ],
-                dest: '<%= paths.public %>/img/'
             },
             {
                 expand: true,
